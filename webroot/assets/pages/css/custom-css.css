@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login-bg1 { background:url(../../images/login-bg.png) no-repeat; width:100%;background-attachment: fixed; background-size:cover; background-position: center center;/*height:100vh;*/ }
+.lgo {margin-left: 10%;padding: 50px 0 10px;max-width: 340px;width:100%;text-align: left;}
+.mt-checkbox > span::after{-webkit-transform:rotate(45deg)}
+
+@media screen and (max-device-width: 480px) {
+	.lgo, .login .content{margin-left:0;}
+	.login .content{margin-bottom:25%;}
+}

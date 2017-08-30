@@ -1,0 +1,30 @@
+label#descartes-id-error {
+    text-align: left;
+    clear: both;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ff6666;
+    width: 100%;
+    border: 1px solid #ff6666;
+    padding: 2px;
+    border-radius: 4px;
+}
+span#descartes-invalid-error {
+    text-align: left;
+    clear: both;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ff6666;
+    width: 100%;
+    border: 1px solid #ff6666;
+    padding: 2px;
+    border-radius: 4px;
+}
+h3.pt50 {
+    padding-top: 110px;
+}
+
+td {
+    vertical-align: middle !important;
+}
+.mt30{margin-top:30px !important;}

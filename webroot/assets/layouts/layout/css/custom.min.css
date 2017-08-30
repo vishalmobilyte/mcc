@@ -1,0 +1,20 @@
+ 
+ *{outline:none;}
+ .mb-0 {margin-bottom:0px;}
+  .mt-0 {margin-top:0px;}
+ 
+ 
+ table.table#sky2cstaff-table tbody td {
+    padding: 8px 20px 0px 20px;
+}
+
+.portlet.light.add-btn>.portlet-title>.caption {
+    color: #666;
+    padding: 0px 0 16px 0;
+}
+
+.update-option-position { position:relative; top:-10px;}
+.update-option-position label { font-size:12px; padding-top:15px;}
+.cust-info h5 { font-size:14px; font-weight:600; margin-top:0px; }
+.cust-info address { font-size:14px; font-weight:500; line-height:22px; }
+.ord-widget .well { min-height:200px;}

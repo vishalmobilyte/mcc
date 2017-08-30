@@ -1,0 +1,96 @@
+Devlopment Environment details :
+
+URL :
+http://sonoclickapp.com.br/dev/
+
+Admin Logins :
+http://sonoclickapp.com.br/dev/users/login?admin=true
+Username : admin
+Password : 123456
+
+Manager login :
+Username : manager
+Password : 123456
+
+
+Database name
+mobilyte_sonoclick_dev
+
+FTP path
+/var/www/sonoclickapp/dev/
+
+
+LIVE WOWZA
+http://199.189.86.19:8088/enginemanager/
+
+Testing  WOWZA
+http://209.126.105.148:8088/enginemanager
+vikash / vikash
+mobilytetest
+
+
+
+Service # 1
+
+To check list of all application.
+
+Request Method : Get 
+
+http://199.189.86.19:8182/api/v1/getAppList
+
+
+Service # 2 :
+
+Create app :
+
+
+http://199.189.86.19:8182/api/v1/createApp
+
+Params:
+
+{
+  "app_name":"vik"
+}
+
+Service # 3 
+
+Remove App:
+
+http://199.189.86.19:8182/api/v1/removeApp
+
+Params As:
+
+{
+  "app_name":"vik"
+}
+
+Service # 4:
+
+Add stream Target:
+
+{ "source_name":"myStream","target_name":"110011","app_name":"mobilyte","rtmp_url":"rtmp://rtmp-api.facebook.com:80/rtmp/371859259815153?ds=1&s_l=1&a=ATgEGDwq9Onux01t" }
+
+
+
+Service # 5:
+
+
+Remove Stream TArget:
+
+
+http://199.189.86.19:8182/api/v1/removeStream
+
+
+
+Params:
+
+
+{
+"source_name":"sono","target_name":"par_page","app_name":"mobilyte"
+}
+
+
+
+
+
+
